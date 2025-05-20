@@ -7,3 +7,20 @@ const fetchAllPeople = async () => {
 };
 
 export default fetchAllPeople;
+
+// EXAMPLE RESPONSE - fetchAllPeople
+
+// [
+//     {
+//         id: '60xaR2IGiMK9l56r9Qtb',
+//         age: 22,
+//         firstName: 'James',
+//         lastName: 'Daniel'
+//     },
+//     {
+//         id: 'JSPodNwcCwisZ78g7aiG',
+//         age: 19,
+//         lastName: 'Doe',
+//         firstName: 'John'
+//     }
+// ]
